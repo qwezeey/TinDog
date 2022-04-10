@@ -1,0 +1,185 @@
+* {
+    font-family: 'Montserrat, sans-serif';  
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.main-text { 
+    font-family: 'Montserrat, sans-serif';  
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+/* NAVIGATION  */
+
+.navbar {
+    padding: 0 4.5rem;
+    margin-top: 5%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Montserrat, sans-serif';  
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.navigation-nav { 
+    margin-bottom: 10%;
+}
+
+.dog-image {
+    width: 45%;
+    transform: rotate(25deg);
+    margin-left: 20%;
+    position: absolute;
+    right: 30%;
+}
+
+.fa-solid {
+    color: red;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.fbox {
+    text-align: center;
+    padding: 4%;
+}
+
+h3 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold, sans-serif';  
+}
+ 
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold, sans-serif';  
+
+}
+
+p {
+    color: #afafaf;
+    
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press { 
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing { 
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* @media screen (min-width 900px) {} */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .dog-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta { 
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+#footer { 
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+#footer-color {
+    color: black;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold, sans-serif';  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-ico {
+    margin: 5px;
+    text-decoration: none;
+}
